@@ -12,20 +12,47 @@ header {
   text-align: center;
 }
 
-.intro, .features, .gallery {
+.intro {
   padding: 20px;
   text-align: center;
+}
+
+.banner {
+  width: 90%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.features, .gallery {
+  padding: 20px;
+  text-align: center;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 10px 0;
 }
 
 .images {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .images img {
   width: 300px;
   border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.images img:hover {
+  transform: scale(1.05);
 }
 
 footer {
@@ -33,4 +60,3 @@ footer {
   text-align: center;
   padding: 15px;
 }
-
