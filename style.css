@@ -82,3 +82,42 @@ body {
   border: 3px solid #777; /* Adiciona uma borda sutil ao redor do avatar */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma leve sombra para destaque */
 }
+/* Seu código CSS existente... */
+
+body {
+    background-color: #000; /* Define um fundo preto inicial caso a imagem demore a carregar */
+    background-size: cover; /* Garante que a imagem cubra toda a área */
+    background-attachment: fixed; /* Faz a imagem ficar fixa enquanto o conteúdo rola */
+    background-position: center center; /* Centraliza a imagem */
+    transition: background-image 0.8s ease-in-out; /* Transição suave entre as imagens */
+    filter: brightness(0.6); /* Deixa a imagem 40% mais escura (ajuste este valor se quiser mais ou menos escuro) */
+    
+    /* NOVO: Define a cor do texto como preto para todo o corpo da página */
+    color: #000; /* ou color: black; */
+}
+
+/* Outros estilos existentes... */
+
+/* Estilos para o cabeçalho, apenas para garantir que o título e parágrafo lá também fiquem pretos */
+header h1,
+header p {
+    color: #000; /* Garante preto */
+}
+
+/* Estilos para os títulos de seção */
+.features h2,
+.gallery h2 {
+    color: #000; /* Garante preto */
+}
+
+/* Estilos para os links (se você quiser que eles sejam pretos e não azuis/roxos) */
+footer a {
+    color: #000; /* Torna o link do GitHub preto */
+    text-decoration: none; /* Remove o sublinhado padrão, se desejar */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse, se desejar */
+}
+
+/* ... e quaisquer outros elementos que precisem de cor específica */
