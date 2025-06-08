@@ -60,3 +60,13 @@ footer {
   text-align: center;
   padding: 15px;
 }
+/* Seu código CSS existente... */
+
+body {
+    background-color: #000; /* Define um fundo preto inicial caso a imagem demore a carregar */
+    background-size: cover; /* Garante que a imagem cubra toda a área */
+    background-attachment: fixed; /* Faz a imagem ficar fixa enquanto o conteúdo rola */
+    background-position: center center; /* Centraliza a imagem */
+    transition: background-image 0.8s ease-in-out; /* Transição suave entre as imagens */
+    filter: brightness(0.6); /* Deixa a imagem 40% mais escura (ajuste este valor se quiser mais ou menos escuro) */
+}
