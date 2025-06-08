@@ -70,3 +70,15 @@ body {
     transition: background-image 0.8s ease-in-out; /* Transição suave entre as imagens */
     filter: brightness(0.6); /* Deixa a imagem 40% mais escura (ajuste este valor se quiser mais ou menos escuro) */
 }
+/* Seu código CSS existente... */
+
+/* Estilos para o avatar no cabeçalho */
+.avatar-header {
+  width: 100px; /* Define a largura da imagem */
+  height: 100px; /* Mantém a altura igual à largura para garantir que fique redondo */
+  border-radius: 50%; /* Faz a imagem ficar redonda */
+  display: block; /* Garante que a imagem ocupe sua própria linha */
+  margin: 15px auto; /* Centraliza a imagem horizontalmente e adiciona margem superior/inferior */
+  border: 3px solid #777; /* Adiciona uma borda sutil ao redor do avatar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona uma leve sombra para destaque */
+}
